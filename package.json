@@ -18,5 +18,10 @@
 		"typescript": "^5.0.0",
 		"vite": "^4.2.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@ag-grid-community/client-side-row-model": "^29.2.0",
+		"@ag-grid-community/core": "^29.2.0",
+		"@ag-grid-community/styles": "^29.2.0"
+	}
 }

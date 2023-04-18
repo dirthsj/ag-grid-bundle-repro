@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang='ts'>
+    import AgGrid from '$lib/ag-grid/ag-grid.svelte';
+    import type { GridOptions } from '@ag-grid-community/core';
+
+    let gridOptions: GridOptions = {
+        columnDefs: [
+            { 'headerName': "Hello World" }
+        ]
+    }
+</script>
+
+<AgGrid gridOptions={gridOptions}></AgGrid>
